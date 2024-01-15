@@ -1,32 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment Two</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900;1000&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="Styles/style.css">
 </head>
+
 <body>
     <!-- started the header section -->
-    <header>
+    <header class="header">
         <!-- start nav section here -->
-        <nav class="nav">
-            <h3 class="common-title">Travel Circle</h3>
-            <ul>
-               <li><a href="">Home</a></li>
-               <li><a href="">Packages</a></li>
-               <li><a href="">Testimonial</a></li>
-               <li><a href="">Blog</a></li>
-               <li><a href="">Contact</a></li>
-            </ul>
-        </nav>
-        <!-- end the nav section -->
-    </header>
-    <main>
+     <nav class="nav">
+        <h3 class="common-title">Travel <span style="color: #FF5400;">Circle</span></h3>
+        <ul>
+            <li><a href=""><span style="color: #FF5400;">Home</span></a></li>
+            <li><a href="">Packages</a></li>
+            <li><a href="">Testimonial</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+     <!-- end the nav section -->
+        <div class="banner-img">
+            <img src="Images/Group 13 (1) (1).png" alt="">
 
+            <div class="banner-information">
+                <h1 class="banner-title">Explore Your Travel</h1>
+                <p class="common-description">"Embark on a journey of discovery with 'Explore Your Travel'—uncover new destinations, cultures, and experiences, crafting unforgettable memories along the way."</p>
+               <div class="input-tags">
+                <input id="main-input" class="input" type="text" placeholder="Where go" id="place">
+                <select class="input" >
+                    <option  value="Cox's Bazar">When</option>
+                </select>
+                <select class="input">
+                    <option >Select Type</option>
+                </select>
+                <button id="btn-primary">Find now</button>
+                <!-- <img id="search" src="Images/search.svg" alt=""> -->
+               </div>
+           <!-- </div> -->
+    </div>
+    </header>
+    <!-- end the header section -->
+
+    <!-- started the main section -->
+     <main>
+        <section class="main-section">
+            <div class="popular-tours-container">
+                <h3 class="common-title">Our Popular Tours</h3>
+                <p class="common-description" style="color: rgba(19, 19, 24, 0.70);">"Dive into extraordinary adventures with 'Our Popular Tours.' Explore curated experiences that captivate, from cultural gems to scenic wonders—your passport to memorable journeys awaits."</p>
+                <ul>
+                    <li>Explore breathtaking landscapes and natural beauty through our sought-after tours.</li>
+                    <li>Craft unforgettable memories as you embark on these carefully selected and popular travel adventures.</li>
+                    <li>Choose from a variety of destinations and themes for an unparalleled exploration experience.</li>
+                </ul>
+                <p>Uncover hidden gems and iconic landmarks across the globe with our popular tours.Experience hassle-free travel with our meticulously planned and popular tour packages.Let 'Our Popular Tours' be your gateway to thrilling and enriching travel experiences. Immerse yourself in rich cultures and traditions.</p>
+                <button id="btn-primary">Read more...</button>
+            </div>
+            <div class="popular-tours-img">
+                <img src="Images/Rectangle 4.png" alt="">
+            </div>
+        </section>
     </main>
+    <!-- end the main section -->
     <footer>
 
     </footer>
 </body>
+
 </html>
