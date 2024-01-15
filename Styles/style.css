@@ -15,9 +15,9 @@ body {
 }
 
 .common-description {
-    color: #FFF;
     font-size: 1rem;
     font-weight: 400;
+    color: rgba(19, 19, 24, 0.70);
 }
 
 #btn-primary {
@@ -76,6 +76,12 @@ body {
     color: #fff;
 }
 
+.description {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
 .banner-img img {
     position: relative;
 }
@@ -103,28 +109,120 @@ body {
 }
 
 /* stared the main section styles */
-.main-section{
+
+/* main section-1 */
+.main-section {
     display: flex;
     max-width: 1170px;
     margin: 50px auto;
     justify-content: space-between;
 }
-.popular-tours-container p{
+
+.popular-tours-container p {
     margin-top: 30px;
 }
-.popular-tours-container >ul{
-            margin-top: 50px;
+
+.popular-tours-container>ul {
+    margin-top: 50px;
 }
-.popular-tours-container li{
+
+.popular-tours-container li {
     margin-top: 30px;
     margin-left: 20px;
 }
-.popular-tours-img img{
+
+.popular-tours-img img {
     width: 100%;
 }
-.popular-tours-container{
+
+.popular-tours-container {
     max-width: 50%;
 }
+
+/* this is the main-section-2 */
+
+.main-section-2 {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.main-section-2-details p {
+    font-size: 1rem;
+    font-weight: 400;
+    max-width: 643px;
+    margin: 40px auto;
+}
+
+.main-section-2-img-container .crazy-img {
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.main-section-2-img-container #very-crazy {
+    padding-left: 19px;
+}
+
+/* started the main section-3 */
+
+.main-section-3 {
+    max-width: 1170px;
+    margin: 50px auto;
+}
+
+.causes-title {
+    max-width: 643px;
+    text-align: center;
+    margin:50px auto;
+}
+.causes-title p{
+    padding-top: 20px;
+}
+
+.causes-for-choose {
+    max-width: 573px;
+    padding: 25px;
+    border-radius: 1rem;
+    background: ;
+}
+
+.causes-container h3 {
+    padding: 30px 0px;
+}
+
+.causes-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 24px;
+}
+
+#choose-one {
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+#choose-two {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+#choose-three {
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+/* end the main section-3 */
+
+
+/* started the main section-4 */
+
+
+
+
+/* end the main section-4 */
+
+
+
 
 /* responsive for mobile device */
 /* @media screen and (max-width:600px) {
