@@ -424,6 +424,7 @@ body {
     margin: 50px auto;
     background: rgba(19, 19, 24, 0.05);
     position: relative;
+   
 }
  .footer-travel-logo {
     margin-left: 400px;
@@ -471,99 +472,3 @@ body {
 
 /* responsive for mobile device */
 
-
-/* @media screen and (max-width: 600px) {
-    body {
-        font-size: 14px; 
-    }
-
-    .header {
-        margin: 20px auto;
-    }
-
-    .banner-information {
-        top: 150px;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .nav {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .nav>ul {
-        margin-top: 20px;
-        gap: 10px;
-    }
-
-    .nav li {
-        margin: 10px 0;
-    }
-
-    .banner-information h1 {
-        font-size: 2.5rem;
-        margin-bottom: 30px;
-    }
-        .main-section{
-            flex-direction: column;
-        }
-    .popular-tours-container,
-    .main-section-2-details,
-    .main-section-3,
-    .main-section-4,
-    .main-section-5 {
-        max-width: 100%;
-        margin: 20px auto;
-    }
-
-    .popular-tours-container,
-    .popular-tours-img,
-    .main-section-2-img-container,
-    .main-section-4-details,
-    .main-section-4-img,
-    .main-section-5 {
-        flex-direction: column;
-    }
-
-    .crazy-img {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .newsletter {
-        max-width: 100%;
-    }
-
-    .last-img {
-        max-width: 100%;
-    }
-
-    .discount {
-        left: 50%;
-        transform: translateX(-50%);
-        top: 200px;
-        width: 100%;
-    }
-
-    .footer-section {
-        margin: 20px auto;
-    }
-
-    .footer-travel-logo {
-        margin: 0 auto;
-    }
-
-    .lastt-title {
-        margin: 20px auto;
-        max-width: 100%;
-    }
-
-    .follow-us {
-        margin: 0 auto;
-    }
-
-    .last-of-all {
-        max-width: 100%;
-    }
-} */
