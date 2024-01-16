@@ -49,6 +49,17 @@ body {
     display: flex;
     justify-content: space-between;
 }
+.travel{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+   
+}
+.travel-logo{
+    max-width: 40px;
+    background-color: #FFF;
+    margin-bottom: 25px;
+}
 
 .nav>ul {
     display: flex;
@@ -252,6 +263,7 @@ body {
 .main-section-4-details h3 {
     padding-bottom: 30px;
     max-width: 400px;
+    line-height: 55px;
 }
 
 .main-section-4-details>ul {
@@ -312,7 +324,7 @@ body {
 
 /* end the main section-4 */
 
-/* started the main section-5 */
+/* started the main section-5/or last */
 .main-section-5 {
     max-width: 1170px;
     margin: 50px auto;
@@ -353,7 +365,7 @@ body {
     margin-top: 40px;
 
 }
-.Subscribe{
+.subscribe{
     width: 380px;
     padding: 15px;
     border-radius: 8px;
@@ -362,9 +374,63 @@ body {
     color: #FFF;
     border: none;
 }
+.last-img{
+    position: relative;
+}
+.discount{
+    width: 300px;
+    background-color: #FF5400;
+    color: #FFF;
+    text-align: center;
+    border-radius: 1rem;
+    transform: rotate(-19.628deg);
+    position: absolute;
+    top: 290px;
+    left: 55%;
+}
+/* end the main section-5/last */
 
 
-/* end the main section-5 */
+/* started the footer section styles */
+.footer-section{
+    max-width: 1170px;
+    margin: 50px auto;
+    background: rgba(19, 19, 24, 0.05);
+    position: relative;
+}
+ .footer-travel-logo {
+    margin-left: 400px;
+    max-width: 70px;
+    margin-top:50px;
+    position: absolute;
+  
+}
+.lastt-title{
+  border: 2px solid steelblue;
+  margin-left: 700px;
+  max-width: 250px;
+  margin-top: 100px;
+
+}
+.follow-us{
+    max-width: 730px;
+    border: 2px solid red;
+    margin: 0px auto;
+    margin-top: 100px;
+    text-align: center;
+}
+.follow-us img{
+    padding-top: 30px;
+}
+
+.last-of-all{
+    max-width: 800px;
+    text-align: center;
+    margin: 50px auto;
+}
+.last-of-all p{
+    margin-top: 30px;
+}
 
 
 /* responsive for mobile device */
