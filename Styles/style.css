@@ -655,14 +655,14 @@ img {
         margin-left: 70px;
     }
 
-    /* .last-img{
-        max-width:50%;
-        margin-right: 200px;
-    } */
+     .last-img{
+        max-width:100%;
+      
+     }
      .discount{
          width:250px;
-        top: 210px;
-        left: 108%;
+        top: 200px;
+        left: 45%;
     } 
     .discount h5{
         font-size:1rem;
@@ -765,7 +765,7 @@ img {
 
 .security h3, p, img {
     margin: 10px 10px;
-    max-width: 485px;
+    max-width: 100%;
     margin-left: 0px;
 }
 .description{
