@@ -660,12 +660,15 @@ img {
         margin-right: 200px;
     } */
      .discount{
-        top: 220px;
+         width:250px;
+        top: 210px;
         left: 108%;
     } 
     .discount h5{
         font-size:1rem;
     }
+    .discount h4{
+        font-size:1.8rem;
     .newsletter,
     .last-img {
         max-width: 565px;
@@ -673,6 +676,7 @@ img {
     }
     .newsletter{
         padding-left: 30px;
+        width:485px
     }
    .causes-title .common-description{
     max-width: 565px;
@@ -761,8 +765,8 @@ img {
 
 .security h3, p, img {
     margin: 10px 10px;
-    max-width: 530px;
-    margin: 0px;
+    max-width: 485px;
+    margin-left: 0px;
 }
 .description{
     display: none;
