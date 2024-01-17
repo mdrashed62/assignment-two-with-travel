@@ -553,6 +553,7 @@ img {
 
     .crazy-img {
         margin-bottom: 20px;
+/*         width:100% */
     }
 
     /* main section-3 */
@@ -586,17 +587,14 @@ img {
         height: 342px;
     }
 
-    .crazy-img {
-        width: 335px;
-        height: 176px;
-    }
+    
 
     .new {
         width: 565px;
        
     }
        .last-img{
-        width: 40%;
+        width: 100%;
         height: 400px;
        } 
         
