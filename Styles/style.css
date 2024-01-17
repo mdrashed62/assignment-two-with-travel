@@ -553,7 +553,6 @@ img {
 
     .crazy-img {
         margin-bottom: 20px;
-/*         width:100% */
     }
 
     /* main section-3 */
@@ -593,11 +592,7 @@ img {
         width: 565px;
        
     }
-       .last-img{
-        width: 100%;
-        height: 400px;
-       } 
-        
+      
 
     .video-icon .same3 {
         padding-left: 310px;
@@ -653,24 +648,17 @@ img {
         margin-left: 70px;
     }
 
-     .last-img{
-        max-width:100%;
-      
-     }
+     
      .discount{
          width:250px;
-        top: 200px;
-        left: 45%;
+        top: 210px;
+        left: 110%;
     } 
     .discount h5{
         font-size:1rem;
     }
     .discount h4{
-        font-size:1.8rem;
-    .newsletter,
-    .last-img {
-        max-width: 565px;
-       
+        font-size:1.8rem; 
     }
     .newsletter{
         padding-left: 30px;
@@ -763,7 +751,7 @@ img {
 
 .security h3, p, img {
     margin: 10px 10px;
-    max-width: 100%;
+    max-width: 485px;
     margin-left: 0px;
 }
 .description{
