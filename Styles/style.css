@@ -399,6 +399,9 @@ body {
     top: 290px;
     left: 50%;
 }
+.discount h5{
+    font-size:1.8rem;
+}
 
 /* end the main section-5/last */
 
@@ -655,17 +658,13 @@ img {
         max-width:50%;
         margin-right: 200px;
     } */
-    /* .discount{
-        width: 300px;
-        background-color: #FF5400;
-        color: #FFF;
-        text-align: center;
-        border-radius: 1rem;
-        transform: rotate(-19.628deg);
-        position: absolute;
-        top: 290px;
-        left: 55%;
-    } */
+     .discount{
+        top: 220px;
+        left: 108%;
+    } 
+    .discount h5{
+        font-size:1rem;
+    }
     .newsletter,
     .last-img {
         max-width: 565px;
@@ -759,7 +758,11 @@ img {
     }
 
 
-
+.security h3, p, img {
+    margin: 10px 10px;
+    max-width: 530px;
+    margin: 0px;
+}
 .description{
     display: none;
     
