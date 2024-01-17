@@ -602,7 +602,7 @@ img {
         
 
     .video-icon .same3 {
-        padding-left: 100px;
+        padding-left: 310px;
         margin-top: 5px;
     }
     
@@ -612,7 +612,8 @@ img {
         align-items: center;
         /* padding-left: 3px; */
         margin-left: 10px;
-        width:400px;
+        width:490px;
+        margin-top:-25px;
     }
     
     .video-icon-2 {
@@ -622,7 +623,7 @@ img {
         display: flex;
         align-items: center;
         left: 35px;
-        width: 400px;
+        width: 480px;
     }
     .main-section-4-details .common-description{
                 max-width: 565px;
