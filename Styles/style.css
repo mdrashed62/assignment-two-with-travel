@@ -505,11 +505,13 @@ img {
     }
 
     .popular-tours-container,
-    .popular-tours-img {
+   {
         max-width: 565px;
        margin-left: 10px;
     }
-
+  .popular-tours-img{
+       margin-left:0px;
+  }
 
     .header img {
         width: 500px;
